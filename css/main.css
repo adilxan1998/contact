@@ -33,4 +33,6 @@ body {
 
 .result {
   background-color: #fff;
+  padding: 20px;
+  border: 2px solid rgb(27, 54, 151);
 }
