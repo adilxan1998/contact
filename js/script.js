@@ -18,12 +18,15 @@ elForm.addEventListener("submit", function (e) {
     number : inputNumbervalue,
   }
 
-    contacts.push (contact)
+    contacts.push(contact)
+
     elInputName.value = null;
     elInputRelative.value = null;
     elInputNumber.value = null;
+
     
-    for (let cont of contacts){
+    for ( cont of contacts){
+
       let nameP = document.createElement("p")
       let relP = document.createElement("p")
       let numP = document.createElement("p")
